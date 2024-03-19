@@ -1,0 +1,20 @@
+.body {
+  min-width: 320px;
+}
+
+.container-top,
+.container-bg-img-playa {
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/ba.avif);
+  background-position: center;
+}
+
+.container-bg-img-playa {
+  background-image: url(/images/honolulu.avif);
+}
